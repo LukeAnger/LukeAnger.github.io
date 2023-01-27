@@ -11,7 +11,7 @@
   Go to the settings page for the repo and click on the "Pages" tab in the "Code and automation" section. Under "Build and deployment you should see a "Source" dropdown menu where you will select "Deploy from a branch" then under "Branch" you should ensure the branch is set to main (unless you have created a new branch then you can deploy from a specific branch".
 
 
-![settings] (assets\github_pages_settings.PNG)
+![settings] (https://github.com/LukeAnger/LukeAnger.github.io/blob/main/assets/github_pages_settings.PNG?raw=true)
 
 
   <h3>----- Step 3 -----</h3>
