@@ -28,8 +28,8 @@ body {
 
 .background div:nth-child(1) {
   position: absolute;
-  width: calc(1 * 15%);
-  height: calc(1 * 15%);
+  width: calc(1 * 12%);
+  height: calc(1 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(245, 194, 53);
   z-index: 10;
@@ -39,8 +39,8 @@ body {
 
 .background div:nth-child(2) {
   position: absolute;
-  width: calc(2 * 15%);
-  height: calc(2 * 15%);
+  width: calc(2 * 12%);
+  height: calc(2 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(231, 167, 30);
   z-index: 9;
@@ -50,10 +50,10 @@ body {
 
 .background div:nth-child(3) {
   position: absolute;
-  width: calc(3 * 15%);
-  height: calc(3 * 15%);
+  width: calc(3 * 12%);
+  height: calc(3 * 12%);
   border-bottom-right-radius: 50%;
-  background-color: rgb(245, 155, 53);
+  background-color: rgb(245, 162, 53);
   z-index: 8;
   animation: pulse calc(3 * 0.5s) ease-in-out infinite alternate-reverse;
 
@@ -61,8 +61,8 @@ body {
 
 .background div:nth-child(4) {
   position: absolute;
-  width: calc(4 * 15%);
-  height: calc(4 * 15%);
+  width: calc(4 * 12%);
+  height: calc(4 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(233, 113, 34);
   z-index: 7;
@@ -72,8 +72,8 @@ body {
 
 .background div:nth-child(5) {
   position: absolute;
-  width: calc(5 * 15%);
-  height: calc(5 * 15%);
+  width: calc(5 * 12%);
+  height: calc(5 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(206, 78, 5);
   z-index: 6;
@@ -83,8 +83,8 @@ body {
 
 .background div:nth-child(6) {
   position: absolute;
-  width: calc(6 * 15%);
-  height: calc(6 * 15%);
+  width: calc(6 * 12%);
+  height: calc(6 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(192, 58, 5);
   z-index: 5;
@@ -94,8 +94,8 @@ body {
 
 .background div:nth-child(7) {
   position: absolute;
-  width: calc(7 * 15%);
-  height: calc(7 * 15%);
+  width: calc(7 * 12%);
+  height: calc(7 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(161, 65, 1);
   z-index: 4;
@@ -105,8 +105,8 @@ body {
 
 .background div:nth-child(8) {
   position: absolute;
-  width: calc(8 * 15%);
-  height: calc(8 * 15%);
+  width: calc(8 * 12%);
+  height: calc(8 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(126, 37, 2);
   z-index: 3;
@@ -116,8 +116,8 @@ body {
 
 .background div:nth-child(9) {
   position: absolute;
-  width: calc(9 * 15%);
-  height: calc(9 * 15%);
+  width: calc(9 * 12%);
+  height: calc(9 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(78, 23, 1);
   z-index: 2;
@@ -127,8 +127,8 @@ body {
 
 .background div:nth-child(10) {
   position: absolute;
-  width: calc(10 * 15%);
-  height: calc(10 * 15%);
+  width: calc(10 * 12%);
+  height: calc(10 * 12%);
   border-bottom-right-radius: 50%;
   background-color: rgb(59, 22, 0);
   z-index: 1;
