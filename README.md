@@ -12,7 +12,9 @@
   
 
 <details><summary>CLICK HERE FOR SETTINGS IMAGE</summary>
+  
 ![settings](https://github.com/LukeAnger/LukeAnger.github.io/blob/main/assets/github_pages_settings.PNG?raw=true)
+  
 </details>
 
   <h3>----- Step 3 -----</h3>
