@@ -14,4 +14,4 @@
   Inside that repo you can create an index.html file and a styles.css file in whatever way you know how or copy the way I have set mine up.
   
   <h3>-- Step 4 --</h3>
-  Ensure the repo is public if you are on a free github account and after saving any changes you have made wait a couple minutes and your github page should be updated and you can view it at the following url {your_github_handle}.github.io .
+  Ensure the repo is public if you are on a free github account and after saving/committing/pushing any changes you have made, wait a couple minutes and your github page should be updated and you can view it at the following url {your_github_handle}.github.io .
