@@ -12,3 +12,13 @@ body {
 
 
 
+.circle {
+  position: absolute;
+  width: 30%;
+  height: 30vw;
+  background: radial-gradient(ellipse at top, #e66465, transparent),
+  radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+  border-radius: 50%;
+  transform-origin: center;
+  transform: translate(calc(50vw - 50%), calc(50vh - 50%));
+}
