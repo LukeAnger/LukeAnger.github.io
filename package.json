@@ -1,6 +1,6 @@
 {
-  "name": "LukeAnger.github.io",
-  "homepage": "https://LukeAnger.github.io/",
+  "name": "portfolio",
+  "homepage": "https://LukeAnger.github.io/portfolio",
   "version": "1.0.0",
   "description": "React template with gh-pages, webpack",
   "main": "index.js",
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LukeAnger/LukeAnger.github.io.git"
+    "url": "git+https://github.com/LukeAnger/portfolio.git"
   },
   "author": "Luke Anger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LukeAnger/LukeAnger.github.io/issues"
+    "url": "https://github.com/LukeAnger/portfolio/issues"
   },
   "dependencies": {
     "react": "^18.2.0",
