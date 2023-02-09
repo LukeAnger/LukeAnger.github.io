@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+body {
+  font-family: 'Jost';
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #521c68;
+  overflow: hidden;
+}
+
+
+
