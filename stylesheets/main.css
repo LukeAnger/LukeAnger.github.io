@@ -1,23 +1,183 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
 
+:root {
+  --color1: #ffa060;
+  --color2: #f15f5f;
+  --color3: #62daf0;
+  --color4: #9cf058;
+  --color5: #b260e9;
+  --color6: #f074bc;
+
+}
+
 body {
   font-family: 'Jost';
   margin: 0;
   width: 100vw;
   height: 100vh;
   background-color: #3c8b99;
-  overflow: hidden;
 }
 
-
-
-.circle {
+.background {
   position: absolute;
-  width: 30%;
-  height: 30vw;
-  background: rgb(68, 113, 172);
-  border-radius: 50%;
-  transform-origin: center;
-  transform: translate(calc(50vw - 50%), calc(50vh - 50%)) scale(0.8);
+  width: 100vw;
+  height: 100svh;
+  perspective: 1000px;
+}
+
+.word {
+  position: relative;
+  width: 300px;
+  aspect-ratio: 1/1;
+  color: #b260e9;
+  transform-style: preserve-3d;
+  transform: translate(100%, 50%) rotateY(0deg) rotateX(0deg);
+}
+
+.letter {
+  font-size: 4rem;
+  text-shadow: black;
+  transform: translateZ(200px);
+}
+
+.cube {
+  position: relative;
+  width: 400px;
+  aspect-ratio: 1/1;
+  transition: 0.5s linear;
+  transform-style: preserve-3d;
+  transform: translate(100%, 50%) rotateY(270deg) rotateX(0deg);
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#989b01, #e4e73a 50%, #0298b3 50%, #004d5a);
+}
+
+.face:nth-child(1) {
+  transform: translateZ(220px);
+}
+
+.face:nth-child(2) {
+  transform: translateZ(-220px) rotateY(180deg);
+}
+
+.face:nth-child(3) {
+  transform: rotateY(90deg) translateZ(220px);
+}
+
+.face:nth-child(4) {
+  transform: rotateY(90deg) translateZ(-220px);
+}
+
+.face:nth-child(5) {
+  transform: rotateX(90deg) translateZ(220px);
+}
+
+.face:nth-child(6) {
+  transform: rotateX(90deg) translateZ(-220px);
+}
+
+.corner {
+  position: absolute;
+  width: 28.3px;
+  height: 100%;
+  background-color: #a4a552;
+  transform-origin: left;
+}
+
+.corner:nth-child(7) {
+  transform: translate(0px, 0px) translateZ(220px) rotateY(135deg);
+}
+
+.corner:nth-child(8) {
+  transform: translate(400px, 0px) translateZ(220px) rotateY(45deg);
+}
+
+.corner:nth-child(9) {
+  transform: translate(0px, 0px) translateZ(-220px) rotateY(225deg);
+}
+
+.corner:nth-child(10) {
+  transform: translate(400px, 0px) translateZ(-220px) rotateY(315deg);
+}
+
+.corner:nth-child(11) {
+  transform: translate(0px, 220px) rotate(90deg) rotateX(90deg) rotateY(135deg);
+}
+
+.corner:nth-child(12) {
+  transform: translate(400px, 220px) rotate(90deg) rotateX(90deg) rotateY(225deg);
+}
+
+.corner:nth-child(13) {
+  transform: translate(0px, -220px) rotate(90deg) rotateX(90deg) rotateY(45deg);
+}
+
+.corner:nth-child(14) {
+  transform: translate(400px, -220px) rotate(90deg) rotateX(90deg) rotateY(315deg);
+}
+
+.corner:nth-child(15) {
+  transform: translate(200px, 220px) translateZ(200px) rotate(90deg) rotateY(225deg);
+}
+
+.corner:nth-child(16) {
+  transform: translate(200px, -220px) translateZ(200px) rotate(90deg) rotateY(315deg);
+}
+
+.corner:nth-child(17) {
+  transform: translate(200px, 220px) translateZ(-200px) rotate(90deg) rotateY(135deg);
+}
+
+.corner:nth-child(18) {
+  transform: translate(200px, -220px) translateZ(-200px) rotate(90deg) rotateY(45deg);
+}
+
+.triangle {
+  position: absolute;
+  width: 28.28px;
+  height: 24.492px;
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background-color: #dddf70;
+  transform-origin: 50% 0%;
+}
+
+.triangle:nth-child(19) {
+  transform: translate(-24.5px, 0px) translateZ(210.1px) rotateY(-45deg) rotateX(216deg);
+}
+
+.triangle:nth-child(20) {
+  transform: translate(396px, 0px) translateZ(210.1px) rotateY(45deg) rotateX(216deg);
+}
+
+.triangle:nth-child(21) {
+  transform: translate(-24.5px, 0px) translateZ(-210.1px) rotateY(-135deg) rotateX(216deg);
+}
+
+.triangle:nth-child(22) {
+  transform: translate(396px, 0px) translateZ(-210.1px) rotateY(135deg) rotateX(216deg);
+}
+
+.triangle:nth-of-type(n+23):nth-of-type(-n+26) {
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+
+.triangle:nth-child(23) {
+  transform: translate(-14px, 420px) translateZ(200px) rotateY(135deg) rotateX(216deg);
+}
+
+.triangle:nth-child(24) {
+  transform: translate(386px, 420px) translateZ(200px) rotateY(225deg) rotateX(216deg);
+}
+
+.triangle:nth-child(25) {
+  transform: translate(-14px, 420px) translateZ(-200px) rotateY(45deg) rotateX(216deg);
+}
+
+.triangle:nth-child(26) {
+  transform: translate(386px, 420px) translateZ(-200px) rotateY(315deg) rotateX(216deg);
 }
