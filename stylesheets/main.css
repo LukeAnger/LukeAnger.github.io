@@ -20,25 +20,17 @@ body {
 }
 
 .background {
-  position: absolute;
+  display: grid;
+  place-content: center;
+  position: relative;
   width: 100vw;
   height: 100svh;
   perspective: 1000px;
 }
 
-.word {
-  position: relative;
-  width: 300px;
-  aspect-ratio: 1/1;
-  color: #b260e9;
-  transform-style: preserve-3d;
-  transform: translate(100%, 50%) rotateY(0deg) rotateX(0deg);
-}
-
-.letter {
-  font-size: 4rem;
-  text-shadow: black;
-  transform: translateZ(200px);
+.cubeScene {
+  width: 100%;
+  height: 100%;
 }
 
 .cube {
@@ -47,7 +39,7 @@ body {
   aspect-ratio: 1/1;
   transition: 0.5s linear;
   transform-style: preserve-3d;
-  transform: translate(100%, 50%) rotateY(270deg) rotateX(0deg);
+  /* transform: translate(100%, 50%) rotateY(270deg) rotateX(0deg); */
 }
 
 .face {

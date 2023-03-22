@@ -7,7 +7,6 @@ let speed = 0.005;
 
 setInterval(() => {
   speed = speed > 0 ? -(Math.random() * 0.005) : Math.random() * 0.005;
-  console.log(speed)
 }, 10000);
 
 
@@ -20,7 +19,7 @@ function render() {
 
 
 
-  cube.style.transform = 'translate(100%, 50%) rotateY(' + cubeRotation + 'rad) rotateX(' + cubeRotation*0.67 + 'rad) rotateZ(' + cubeRotation*0.33 + 'rad)';
+  cube.style.transform = 'rotateY(' + cubeRotation + 'rad) rotateX(' + cubeRotation*0.67 + 'rad) rotateZ(' + cubeRotation*0.33 + 'rad)';
   requestAnimationFrame(render);
 }
 
@@ -28,7 +27,7 @@ hover ? null : requestAnimationFrame(render);
 
 // I want to pause the animation when the mouse hovers over the cube
 cube.addEventListener('mouseover', () => {
-  cube.style.transform = 'translate(100%, 50%)';
+  cube.style.transform = '';
   hover = true;
 });
 
