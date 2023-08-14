@@ -12,7 +12,7 @@
 }
 
 p, h4 {
-  font-size: 1.8rem;
+  font-size: 2.6rem;
   padding: 0.2rem;
   margin: 0;
 }
@@ -60,6 +60,10 @@ body {
     width: 90%;
 
   }
+  img {
+    width: 200px;
+    height: 240px;
+  }
 }
 
 @media screen and (orientation: landscape) {
@@ -80,6 +84,8 @@ img {
   top: 0;
   left: 0;
   z-index: -1;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 2px rgb(68, 35, 5);
 }
 
 
