@@ -11,6 +11,13 @@
 
 }
 
+p, h4 {
+  font-size: 1.8rem;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+
 body {
   font-family: 'Jost';
   margin: 0;
@@ -39,6 +46,12 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+}
+
+#title {
+  font-size: 2.5rem;
+  text-shadow: 0 2px 5px rgb(129, 84, 42);
+  text-align: center;
 }
 
 /* screen is portrait make it fit */
